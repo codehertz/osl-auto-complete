@@ -1,0 +1,85 @@
+/* osl-auto-complete start */
+.osl-ac-rows {
+    position: absolute;
+    font-size: 13px;
+    width: 260px;
+    max-height: 500px;
+    overflow-y: scroll;
+    background-color: #fff;
+    z-index: 500;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 0 6px rgba(8,60,81,.4);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 0 6px rgba(8,60,81,.4);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1), 0 0 6px rgba(8,60,81,.4);
+}
+
+.osl-ac-rows .ac-row-label {
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.osl-ac-rows .ac-row-label > span.name {
+    display: inline-block;
+    color: #4c4c4c;
+    font-weight: bold;
+}
+
+.osl-ac-rows .ac-row-label > span.icon {
+    display: inline-block;
+    margin-right: 6px;
+    height: 16px;
+}
+
+.osl-ac-rows .ac-row-cities > span.icon {
+    width: 16px;
+    background: url('../img/common/icon-ac-city.png') no-repeat;
+    background-size: 16px 16px;
+    vertical-align: -2px;
+}
+
+.osl-ac-rows .ac-row-universities > span.icon {
+    width: 15px;
+    background: url('../img/common/icon-ac-university.png') no-repeat;
+    background-size: 16px 15px;
+    vertical-align: -3px;
+}
+
+.osl-ac-rows .ac-row-landlords > span.icon {
+    width: 7px;
+    background: url('../img/common/stf-landlords@2x.png') no-repeat;
+    background-size: 7px 16px;
+    vertical-align: -3px;
+}
+
+.osl-ac-rows .ac-row {
+    overflow: auto;
+    padding: 10px;
+}
+
+.osl-ac-rows .ac-row:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.osl-ac-rows .ac-row-hover {
+    background-color: #fafafa;
+}
+
+.osl-ac-rows .ac-row > span.name {
+    max-width: 80%;
+    float: left;
+    line-height: 21px;
+}
+
+.osl-ac-rows .ac-row > span.num {
+    float: right;
+    color: #fff;
+    background-color: #e88c82;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 0 6px;
+    border-radius: 2px;
+}
+/* osl-auto-complete end */
